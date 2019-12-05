@@ -25,7 +25,7 @@ def interpolation_search(list, key):
     low = 0
     high = length - 1
     time = 0
-    print("length:%s list:%s"%(length,list))
+    # print("length:%s list:%s"%(length,list))
     while low < high:
         time += 1
         mid = low + int((high - low) * (key - list[low]) / (list[high] - list[low]))# 计算mid值是插值算法的核心代码
@@ -34,7 +34,8 @@ def interpolation_search(list, key):
         elif key > list[mid]:
             low = mid + 1
         else:
-            return mid
+            # return mid
+            return True
     return False
 
 if __name__ == '__main__':

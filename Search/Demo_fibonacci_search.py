@@ -27,7 +27,7 @@ def fibonacci_search(list, key):
     F = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368]
     low = 0
     high = length - 1
-    print("length:%s list:%s"%(length,list))
+    # print("length:%s list:%s"%(length,list))
 
     # 为了使得查找表满足斐波那契特性，在表的最后添加几个同样的值
     # 这个值是原查找表的最后那个元素的值
@@ -55,9 +55,11 @@ def fibonacci_search(list, key):
             k -= 2
         else:
             if mid <= high:
-                return mid
+                # return mid
+                return True
             else:
-                return high
+                # return high
+                return True
     return False
 
 if __name__ == '__main__':

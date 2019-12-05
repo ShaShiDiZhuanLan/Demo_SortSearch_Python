@@ -31,7 +31,7 @@ def binary_search(list, key):
     length = len(list)
     first = 0
     last = length - 1
-    print("length:%s list:%s"%(length,list))
+    # print("length:%s list:%s"%(length,list))
     while first <= last:
         mid = (last + first) // 2
         if list[mid] > key:
@@ -39,7 +39,8 @@ def binary_search(list, key):
         elif list[mid] < key:
             first = mid + 1
         else:
-            return mid
+            # return mid
+            return True
     return False
 
 if __name__ == '__main__':

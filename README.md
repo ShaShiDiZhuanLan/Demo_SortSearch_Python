@@ -33,4 +33,65 @@ https://shazhenyu.blog.csdn.net/article/details/90645537 <BR/>
  3.2.7、B树查找 <BR/>
  3.2.8、二叉树查找（BST） <BR/>
 <BR/>
+# 4、结果
+Sorting... <BR/>
+———————————————————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is bubble sort <BR/>
+—————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is bucket sort <BR/>
+—————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is counting sort <BR/>
+—————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is heap sort <BR/>
+—————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is insertion sort <BR/>
+—————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is merge sort <BR/>
+—————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is quick sort <BR/>
+—————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is radix sort <BR/>
+—————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is selection sort <BR/>
+—————————————— <BR/>
+[1, 5, 8, 123, 22, 54, 7, 99, 300, 222] is source list <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 222, 300] is shell sort <BR/>
+———————————————————————————— <BR/>
+Searching... <BR/>
+———————————————————————————— <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444] is source list, 54 is key <BR/>
+bTree search:  True <BR/>
+—————————————— <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444] is source list, 54 is key <BR/>
+binary search:  True <BR/>
+—————————————— <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444] is source list, 54 is key <BR/>
+binary tree search:  True <BR/>
+—————————————— <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444] is source list, 54 is key <BR/>
+block search:  True <BR/>
+—————————————— <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444] is source list, 54 is key <BR/>
+fibonacci search:  True <BR/>
+—————————————— <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444] is source list, 54 is key <BR/>
+hash search:  True <BR/>
+—————————————— <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444] is source list, 54 is key <BR/>
+interpolation search:  True <BR/>
+—————————————— <BR/>
+[1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444] is source list, 54 is key <BR/>
+sequential search:  True <BR/>
+———————————————————————————— <BR/>
+ <BR/>
+# 5、排序算法总纲
 ![image](https://github.com/ShaShiDiZhuanLan/Demo_SortSearch_Python/blob/master/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.png)

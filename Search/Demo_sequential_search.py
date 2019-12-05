@@ -22,10 +22,11 @@ Info: 顺序查找
 # 顺序查找(线性查找)
 def sequential_search(list, key):
     length = len(list)
-    print("length:%s list:%s"%(length,list))
+    # print("length:%s list:%s"%(length,list))
     for i in range(length):
         if list[i] == key:
-            return i
+            # return i
+            return True
     return False
 
 if __name__ == '__main__':

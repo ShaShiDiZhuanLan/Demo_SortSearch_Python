@@ -33,7 +33,7 @@ def searchHash(hash, hashLength, data):
         hashAddress = hashAddress % hashLength
     if hash.get(hashAddress) == None:
         return False
-    return hashAddress
+    return True
 
 # 数据插入哈希表
 def insertHash(hash, hashLength, data):
@@ -50,5 +50,5 @@ if __name__ == '__main__':
     print("length:%s list:%s"%(hashLength,list))
     for i in list:
         insertHash(hash, hashLength, i)
-    result = searchHash(hash, hashLength, 1)
+    result = searchHash(hash, hashLength, 3)
     print("List key is:", result)

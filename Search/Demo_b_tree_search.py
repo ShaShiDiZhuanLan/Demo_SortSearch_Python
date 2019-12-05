@@ -61,10 +61,10 @@ def inorder(node, key):
     if node.data:
         if node.left:
             inorder(node.left, key)
-        node.show()
+        # node.show()
         if node.data == key:
             global inorder_find
-            print("_______________________find it %s_______________________"%key)
+            # print("_______________________find it %s_______________________"%key)
             inorder_find = True
         if node.right:
             inorder(node.right, key)
@@ -74,7 +74,7 @@ def rinorder(node, key):  #倒中序遍历
     if node.data:
         if node.right:
             rinorder(node.right, key)
-        node.show()
+        # node.show()
         if node.left:
             rinorder(node.left, key)
         if node.data == key:

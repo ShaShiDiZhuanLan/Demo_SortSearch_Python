@@ -69,7 +69,7 @@ class Tree(object):
             queue.append(self.root)
             while queue:
                 cur_node = queue.pop()
-                print(cur_node.element, end=' ')
+                # print(cur_node.element, end=' ')
                 if cur_node.element == key:
                     return True
                 if cur_node.rchild is not None:
