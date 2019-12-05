@@ -6,8 +6,10 @@
 创建时间：2019-12-2<BR/>
 最后一次更新时间：2019-12-5<BR/> 
 <BR/> 
-CSDN博客地址——十个常用排序算法——python3实现（顺便讲了全部的排序算法分类）：https://shazhenyu.blog.csdn.net/article/details/91395700 <BR/> 
-CSDN博客地址——八个常用查找算法——python3实现：https://shazhenyu.blog.csdn.net/article/details/90645537 <BR/> 
+CSDN博客地址——十个常用排序算法——python3实现（顺便讲了全部的排序算法分类）：<BR/> 
+https://shazhenyu.blog.csdn.net/article/details/91395700 <BR/> 
+CSDN博客地址——八个常用查找算法——python3实现：<BR/> 
+https://shazhenyu.blog.csdn.net/article/details/90645537 <BR/> 
 <BR/> 
 # 3、排序查找算法
 ## 3.1、排序算法
@@ -31,3 +33,4 @@ CSDN博客地址——八个常用查找算法——python3实现：https://shaz
  3.2.7、B树查找 <BR/>
  3.2.8、二叉树查找（BST） <BR/>
 <BR/>
+![image](https://github.com/ShaShiDiZhuanLan/Demo_SortSearch_Python/blob/master/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95.png)
